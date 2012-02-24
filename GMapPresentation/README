@@ -5,3 +5,9 @@ Using GMapPresentation you can place a series of slides at a variety of places a
 Supports keyboard navigation from slide to slide including up-down, left-right, page-up-page-down, and spacebar.
 
 Supports jumping between slides by clicking the slide title in the right-hand pane. 
+
+To use:
+Open index.html and find YOUR_KEY_HERE and replace it with your Google Maps key.
+
+To change slide data:
+Open slides.js, and modify as needed. 
