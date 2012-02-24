@@ -19,16 +19,14 @@ var slides = [
         	   title: "About MasterCard",
         	   contents: 
         		   "<ul>" +
-        	   		  "<li>Primarily a technology company</li>" +
+        	   		  "<li>A technology company</li>" +
         	   		  "<li>Over 1.7 billion MasterCard-branded cards</li>" +
-        	   		  "<li>We issue none of them</li>" +
-        	   		  "<li>210 Countries, 150 currencies</li>" +
-        	   		  "<li>Connect over 2200 financial institutions</li>" +
-        	   		  "<li>32 million merchant locations connected to our network</li>" +
-        	   		  "<li>2.7 Trillion spent in 2010</li>" +
-        	   		  "<li>~43,000 transactions per minute; capable of 14 billion instructions/sec</li>" +
+        	   		  "<li>We have issued 0 cards</li>" +
+        	   		  "<li>210 Countries, 150 currencies, 2200 financial institutions, 32 million merchant locations</li>" +
+        	   		  "<li>$2.7 Trillion spent in 2010</li>" +
+        	   		  "<li>~43,000 transactions per minute</li>" +
         	   		  "<li>Average txn 130 milliseconds</li>" +
-        	   		  "<li>Over 10 petabytes of data in our warehouse</li>" +
+        	   		  "<li>Many petabytes of data in our warehouse</li>" +
     	   		   "</ul>",
         	   zoom: 16,
         	   point: new google.maps.LatLng(41.02449, -73.71508)
@@ -44,7 +42,7 @@ var slides = [
         	   		  "<li>Usenet - ~1980's and beyond</li>" +
         	   		  "<li>Linux - 1991</li>" +
         	   		  "<li>Apache - 1995</li>" +
-        	   		  "<li>Everything else</li>" +
+        	   		  "<li>Everything else - 1995 and beyond</li>" +
         	   	   "</ul>",
         	   zoom: 18,
         	   point: new google.maps.LatLng(45.123836, -123.113040)
@@ -54,12 +52,12 @@ var slides = [
         	   title: "History of Open APIs",
         	   contents: 
         		   "<ul>" +
-        	   		  "<li>EBay - tools for power sellers</li>" +
-        	   		  "<li>Amazon - affiliate apis</li>" +
-        	   		  "<li>Salesforce - Enterprise SAAS</li>" +
-        	   		  "<li>Google - maps</li>" +
-        	   		  "<li>Social explosion led by Facebook</li>" +
-        	   		  "<li>Everyone else - exponential growth</li>" +
+        	   		  "<li>EBay - tools for power sellers -2000</li>" +
+        	   		  "<li>Amazon - affiliate apis - 2002</li>" +
+        	   		  "<li>Salesforce - Enterprise SAAS - 2003</li>" +
+        	   		  "<li>Google Maps, Flickr, Yahoo - 2005</li>" +
+        	   		  "<li>Facebook, Twitter - social explosion - 2006</li>" +
+        	   		  "<li>Everyone else - exponential growth - 2006 and beyond</li>" +
         	   	   "</ul>",
         	   zoom: 18,
         	   point: new google.maps.LatLng(37.37732, -121.92151)
@@ -80,8 +78,8 @@ var slides = [
 	        		   "<li>Extremely low barrier to entry</li>" +
 	        		   "<li>Cost of distribution : creative business models required</li>" +
         		   "</ul>",
-        	   zoom: 18,
-        	   point: new google.maps.LatLng(36.113094, -115.173723)
+        	   zoom: 22,
+        	   point: new google.maps.LatLng(10.903855, 19.935041)
            },
            {
         	   title: "The Impact of Open",
@@ -150,8 +148,8 @@ var slides = [
         		   		"<li>Advanced Payments, Social Payments, Recurring Payments</li>" +
         		   		"<li>Seperation of Merchant/Developer Relationship</li>" +
         		   "</ul>",
-        	   zoom: 4,
-        	   point: new google.maps.LatLng(0, 0)
+        	   zoom: 20,
+        	   point: new google.maps.LatLng(48.825294, 2.198573)
            },
            {
         	   title: "The Server...err...Grid...err...Cloud",
@@ -168,7 +166,7 @@ var slides = [
          		   		"<li>A home for OSS software</li>" + 
          		   		"<li>Exciting time for software developers</li>" +
          		   	"</ul>",
-        	   zoom: 18,
+        	   zoom: 8,
         	   point: new google.maps.LatLng(74.964, -39.93)
            },
            {
@@ -184,13 +182,12 @@ var slides = [
         		   		"<li><b>Open Government</b> - making all government data open.  Tim OReilly big proponent.  Impact can be huge, like the Census Bureau's open map data.</li>" +
         		   	"</ul>",
         	   zoom: 18,
-        	   point: new google.maps.LatLng(38.798, -36.785)
+        	   point: new google.maps.LatLng(36.113094, -115.173723)
            },
            {
-        	   title: "The Future of Open",
+        	   title: "The Future of Open Source",
         	   contents: 
         		   "Improved technology leading the way<br>" +
-        		   "<h4>For Open Source</h4>" +
         		   "<ul>" +
         		   		"<li>DVCS</li>" +
         		   		"<li>Open Source feeding Open Source</li>" +
@@ -202,9 +199,8 @@ var slides = [
         	   point: new google.maps.LatLng(28.58707, -80.65274)
            },
            {
-        	   title: "The Future of Open",
+        	   title: "The Future of Open Services",
         	   contents: 
-	        	   "<h4>For Open Services</h4>" +
 	        	   "<ul>" +
         		   		"<li>Technologies like OAuth and OpenID</li>" +
         		   		"<li>Open APIs major building block for apps</li>" +
@@ -216,6 +212,7 @@ var slides = [
         		   		"<li>More tooling</li>" +
         		   		"<li>Formation of an industry around APIs (tool providers, consultancies, etc.)</li>" +
         		   		"<li>More app stores</li>" +
+        		   		"<li>More open-open - combining open services, open content licenses, and open source" +
         		   "</ul>",
         	   zoom: 18,
         	   point: new google.maps.LatLng(28.58707, -80.65274)
