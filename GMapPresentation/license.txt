@@ -1,0 +1,10 @@
+The GMapPresentation project is licensed under the Apache License version 2, or the Gnu Public License (GPL) v2, v3, or any newer version of the GPL published by the Free Software Foundation.
+
+For the Apache License, see:
+http://www.apache.org/licenses/LICENSE-2.0
+
+For the GPL v2, see:
+http://www.gnu.org/licenses/gpl-2.0.html
+
+For the GPL v3 or latest GPL, see:
+http://www.gnu.org/copyleft/gpl.html
