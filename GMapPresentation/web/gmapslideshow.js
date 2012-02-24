@@ -43,11 +43,11 @@ var map;
         }
         
         function doZoomOut() {
-        	if (map.getZoom() > 2) {
+        	if (map.getZoom() > 3) {
         		map.setZoom(map.getZoom() - 1);
         		setTimeout("doZoomOut()", 100);
         	} else {
-        		setTimeout("doPan()", 1000);
+        		setTimeout("doPan()", 500);
         	}
     		
         }
