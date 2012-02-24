@@ -1,6 +1,7 @@
 GMapPresentation is a simple presentation UI utilizing Google Maps. 
 
-Using GMapPresentation you can place a series of slides at a variety of places around globe.  
-As you jump from slide to slide, the map will fly to the location of the next slide.
+Using GMapPresentation you can place a series of slides at a variety of places around globe.  As you jump from slide to slide, the map will fly to the location of the next slide.
+
 Supports keyboard navigation from slide to slide including up-down, left-right, page-up-page-down, and spacebar.
+
 Supports jumping between slides by clicking the slide title in the right-hand pane. 
