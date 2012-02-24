@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+      
+      #slides ol { font-style:italic; font-family:Georgia, Times, serif; font-size:13px; color:#777;  }
+      #slides ol li { padding: 0px; font-size: 13px;}
+      #slides ol li p { padding:8px; font-style:normal; font-family:Arial; font-size: 13px; color:#777; border-left: 1px solid #777; }
+      #slides ol li p em { display:block; font-size: 18px}
+      .activeSlide { background-color: #f0f0f0; }
+      
+      .infowindow {
+      	font-family:Georgia, Times, serif; font-size:26px; color:#777;
+      }
+      
+      .infowindow h1 {
+	      font-style:italic; font-family:Georgia, Times, serif; font-size:34px; color:#777; margin: 20px;
+      }
+      
+    </style>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCB_TswirFPUztHYBqp2olPeCo4CUGBDHM&sensor=true"></script>
+    
+    <script type="text/javascript" src="slides.js"></script>
+    <script type="text/javascript" src="gmapslideshow.js"></script>
+  </head>
+  <body onload="initialize()">
+	<div id="map_canvas" style="width:76%; height:100%; float: left"></div>
+    <div id="slides" style="width:20%; height: 100%; float: right; padding: 10px; overflow: scroll">
+    	<div><h1>Open Disruption</h1></div>
+    	<ol id="slideList"></ol>
+    	<input type="button" value="Previous" onclick="showPreviousSlide()" />
+    	<input type="button" value="Next" onclick="showNextSlide()" />
+    </div>
+    
+  </body>
+</html>
