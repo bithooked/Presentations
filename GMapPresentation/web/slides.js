@@ -36,28 +36,38 @@ var slides = [
         	   title: "History of Open Source",
         	   contents: 
         		   "<ul>" +
-        	   		  "<li>Books - 1980's</li>" +
-        	   		  "<li>WWIV BBS - 1980s</li>" +
-        	   		  "<li>Invention of GPL and Free Software - 1988</li>" +
-        	   		  "<li>Usenet - ~1980's and beyond</li>" +
-        	   		  "<li>Linux - 1991</li>" +
-        	   		  "<li>Apache - 1995</li>" +
+        	   		  "<li>1980's - Books, WWIV BBS, Usenet</li>" +
+        	   		  "<li>1988 - Invention of GPL and Free Software</li>" +
+        	   		  "<li>1990 - World Wide Web - the wonderful world of view-source</li>" +
+        	   		  "<li>1991 - Linux</li>" +
+        	   		  "<li>1995 - Apache</li>" +
         	   		  "<li>Everything else - 1995 and beyond</li>" +
+        	   		  "<li>2007 - Estimated over 18,000 active projects (over 100k inactive)</li>" +
         	   	   "</ul>",
         	   zoom: 18,
-        	   point: new google.maps.LatLng(45.123836, -123.113040)
+        	   point: new google.maps.LatLng(45.123936, -123.113040)
+        	   
+           },
+           {
+        	   title: "Growth of Open Source",
+        	   contents: 
+        	   	   "<img src='slidedata/total-growth-figure-3.jpg' /><br />" +
+        	   	   "source: SAP Research, SAP Labs LLC<br>" + 
+        	   	   "http://dirkriehle.com/2008/03/14/the-total-growth-of-open-source/",
+        	   zoom: 18,
+        	   point: new google.maps.LatLng(45.123936, -123.113040)
         	   
            },
            {
         	   title: "History of Open APIs",
         	   contents: 
         		   "<ul>" +
-        	   		  "<li>EBay - tools for power sellers -2000</li>" +
-        	   		  "<li>Amazon - affiliate apis - 2002</li>" +
-        	   		  "<li>Salesforce - Enterprise SAAS - 2003</li>" +
-        	   		  "<li>Google Maps, Flickr, Yahoo - 2005</li>" +
-        	   		  "<li>Facebook, Twitter - social explosion - 2006</li>" +
-        	   		  "<li>Everyone else - exponential growth - 2006 and beyond</li>" +
+        	   		  "<li>2000 - EBay - tools for power sellers</li>" +
+        	   		  "<li>2002 - Amazon - affiliate apis</li>" +
+        	   		  "<li>2003 - Salesforce - Enterprise SAAS</li>" +
+        	   		  "<li>2005 - Google Maps, Flickr, Yahoo - 105 APIs, Programmable Web</li>" +
+        	   		  "<li>2006 - Facebook, Twitter - social explosion - 352 APIs, Programmable Web</li>" +
+        	   		  "<li>2012 - 5212 APIs registered on Programmable Web</li>" +
         	   	   "</ul>",
         	   zoom: 18,
         	   point: new google.maps.LatLng(37.37732, -121.92151)
@@ -78,7 +88,7 @@ var slides = [
 	        		   "<li>Extremely low barrier to entry</li>" +
 	        		   "<li>Cost of distribution : creative business models required</li>" +
         		   "</ul>",
-        	   zoom: 22,
+        	   zoom: 23,
         	   point: new google.maps.LatLng(10.903855, 19.935041)
            },
            {
@@ -88,6 +98,9 @@ var slides = [
 	        		   "<li>Developers make the choice</li>" +
 	        		   "<li>Survival of the fittest not best salesman</li>" +
 	        		   "<li>Open feeds itself - The more you build, the more can be built</li>" +
+	        		   "<li>Open recruits talent</li>" +
+	        		   "<li>Open pays contributors in non-monetary ways</li>" +
+	        		   "<li>Open produces high quality</li>" +
         		   "</ul>",
         	   zoom: 15,
         	   point: new google.maps.LatLng(35.0357, -111.0238)
@@ -99,10 +112,10 @@ var slides = [
 	        		   "<li>Hard to quantify</li>" +
 	        		   "<li>Data center technology</li>" +
 	        		   "<li>Financial industries</li>" +
-	        		   "<li>Office software</li>" +
 	        		   "<li>Government operations</li>" +
 	        		   "<li>Mobile</li>" +
-	        		   "<li>Publishing</li>" +
+	        		   "<li>Content publishing</li>" +
+	        		   "<li>Much more</li>" +
         		   "</ul>",
         	   zoom: 12,
         	   point: new google.maps.LatLng(6.5509, -1.4107)
@@ -130,7 +143,7 @@ var slides = [
         	   zoom: 17,
         	   point: new google.maps.LatLng(41.02763, -73.71558)
            },
-           {
+            {
         	   title: "MasterCard's Current Services",
         	   contents: 
         		   "<h4>http://developer.mastercard.com</h4>" +
@@ -178,7 +191,6 @@ var slides = [
         		   		"<li><b>Open Communication</b> - disrupting governments (twitter)</li>" + 
         		   		"<li><b>Creative Commons</b> - opening content works, potential for disruption - I believe there's still more to come here</li>" +
         		   		"<li><b>Open Publishing</b> - huge potential</li>" +
-        		   		"<li><b>Open Music</b> - future is still unclear</li>" +
         		   		"<li><b>Open Government</b> - making all government data open.  Tim OReilly big proponent.  Impact can be huge, like the Census Bureau's open map data.</li>" +
         		   	"</ul>",
         	   zoom: 18,
@@ -187,11 +199,11 @@ var slides = [
            {
         	   title: "The Future of Open Source",
         	   contents: 
-        		   "Improved technology leading the way<br>" +
         		   "<ul>" +
+        		   		"<li>Patent Wars - Patent Commons</li>" +
+        		   		"<li>Open competing in app-dominated word - no view source</li>" +
         		   		"<li>DVCS</li>" +
         		   		"<li>Open Source feeding Open Source</li>" +
-        		   		"<li>Patent Wars - Patent Commons</li>" +
         		   		"<li>Repeats of Android, Chrome</li>" +
         		   		"<li>Mobile-Social-Cloud</li>" +
 	        	   "</ul>",
@@ -199,19 +211,15 @@ var slides = [
         	   point: new google.maps.LatLng(28.58707, -80.65274)
            },
            {
-        	   title: "The Future of Open Services",
+        	   title: "The Future of Open APIs",
         	   contents: 
 	        	   "<ul>" +
         		   		"<li>Technologies like OAuth and OpenID</li>" +
         		   		"<li>Open APIs major building block for apps</li>" +
         		   		"<li>Social APIs a major force</li>" +
         		   		"<li>Growing community - currently in their infancy</li>" +
-        		   		"<li>Clearly immature - growth is exponential</li>" +
-        		   		"<li>Moving to REST</li>" +
-        		   		"<li>More use of formats other than XML > JSon, protobufs, etc</li>" +
         		   		"<li>More tooling</li>" +
         		   		"<li>Formation of an industry around APIs (tool providers, consultancies, etc.)</li>" +
-        		   		"<li>More app stores</li>" +
         		   		"<li>More open-open - combining open services, open content licenses, and open source" +
         		   "</ul>",
         	   zoom: 18,

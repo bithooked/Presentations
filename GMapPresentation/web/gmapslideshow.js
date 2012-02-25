@@ -3,6 +3,7 @@ var map;
     	var changingSlides = false;
     	
         var currentSlideId = -1;
+        var currentSlide;
         var infoWindows = [];
         
         function showNextSlide() {
@@ -22,6 +23,7 @@ var map;
         }
         
         function showSlide(slideId) {
+        	var previousSlide = currentSlide;
         	if (!changingSlides) {
 	        	changingSlides = true;
 	        	var slide = document.getElementById("slide" + currentSlideId);
@@ -35,9 +37,17 @@ var map;
 	        	
 	        	if (slideId >= 0 && slideId < slides.length) {
 	        		currentSlideId = slideId;
-	        		doZoomOut();
+	        		if (!previousSlide || ( 
+	        				previousSlide.point.lat() != slides[currentSlideId].point.lat() ||
+	        				previousSlide.point.lng() != slides[currentSlideId].point.lng() ||
+	        				previousSlide.zoom != slides[currentSlideId].zoom)
+	        				) {
+	        			doZoomOut();
+	        		} else {
+	        			doShowCurrentSlide();
+	        		}
 	        	}
-	        	
+	        	currentSlide = slides[currentSlideId];
 	        	document.getElementById("slide" + currentSlideId).className = "activeSlide";
         	}
         }
@@ -64,9 +74,13 @@ var map;
         		map.setZoom(map.getZoom() + 1);
         		setTimeout("doZoomIn()", 100);
  	       } else {
-        		infoWindows[currentSlideId].open(map);
-        		changingSlides = false;
+        		doShowCurrentSlide();
  	       }
+        }
+        
+        function doShowCurrentSlide() {
+        	infoWindows[currentSlideId].open(map);
+    		changingSlides = false;
         }
         
         function initialize() {
