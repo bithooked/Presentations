@@ -38,7 +38,7 @@ var slides = [
         	   		  "<li>1990 - World Wide Web - the wonderful world of view-source</li>" +
         	   		  "<li>1991 - Linux</li>" +
         	   		  "<li>1995 - Apache</li>" +
-        	   		  "<li>Everything else - 1995 and beyond</li>" +
+        	   		  "<li>1999 - Sourceforge</li>" +
         	   		  "<li>2007 - Estimated over 18,000 active projects (over 100k inactive)</li>" +
         	   	   "</ul>",
         	   zoom: 18,
@@ -219,8 +219,8 @@ var slides = [
         		   		"<li>Open competing in app-dominated word - no view source</li>" +
         		   		"<li>Open source feeding open source</li>" +
 	        	   "</ul>",
-        	   zoom: 17,
-        	   point: new google.maps.LatLng(28.58707, -80.65274)
+        	   zoom: 19,
+        	   point: new google.maps.LatLng(47.622167, -122.348841)
            },
         ];		
 
