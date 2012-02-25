@@ -20,13 +20,10 @@ var slides = [
         	   contents: 
         		   "<ul>" +
         	   		  "<li>A technology company</li>" +
-        	   		  "<li>Over 1.7 billion MasterCard-branded cards</li>" +
-        	   		  "<li>We have issued 0 cards</li>" +
+        	   		  "<li>Over 1.7 billion MasterCard-branded cards; we have issued 0 cards</li>" +
         	   		  "<li>210 Countries, 150 currencies, 2200 financial institutions, 32 million merchant locations</li>" +
-        	   		  "<li>$2.7 Trillion spent in 2010</li>" +
-        	   		  "<li>~43,000 transactions per minute</li>" +
-        	   		  "<li>Average txn 130 milliseconds</li>" +
-        	   		  "<li>Many petabytes of data in our warehouse</li>" +
+        	   		  "<li>~43,000 transactions per minute, avg txn 130 milliseconds</li>" +
+        	   		  "<li>One of the largest data warehouses in the world - many petabytes</li>" +
     	   		   "</ul>",
         	   zoom: 16,
         	   point: new google.maps.LatLng(41.02449, -73.71508)
@@ -167,7 +164,7 @@ var slides = [
            {
         	   title: "The Server...err...Grid...err...Cloud",
         	   contents: 
-        		   "Cloud itself is not new.  What's new is:" +
+        		   "Cloud computing is not new.  What's new is:" +
         		   "<ul>" +
         		   		"<li>Mainstream virtualization</li>" +
         		   		"<li>Open Access</li>" + 
@@ -197,20 +194,6 @@ var slides = [
         	   point: new google.maps.LatLng(36.113094, -115.173723)
            },
            {
-        	   title: "The Future of Open Source",
-        	   contents: 
-        		   "<ul>" +
-        		   		"<li>Patent Wars - Patent Commons</li>" +
-        		   		"<li>Open competing in app-dominated word - no view source</li>" +
-        		   		"<li>DVCS</li>" +
-        		   		"<li>Open Source feeding Open Source</li>" +
-        		   		"<li>Repeats of Android, Chrome</li>" +
-        		   		"<li>Mobile-Social-Cloud</li>" +
-	        	   "</ul>",
-        	   zoom: 10,
-        	   point: new google.maps.LatLng(28.58707, -80.65274)
-           },
-           {
         	   title: "The Future of Open APIs",
         	   contents: 
 	        	   "<ul>" +
@@ -222,90 +205,22 @@ var slides = [
         		   		"<li>Formation of an industry around APIs (tool providers, consultancies, etc.)</li>" +
         		   		"<li>More open-open - combining open services, open content licenses, and open source" +
         		   "</ul>",
-        	   zoom: 18,
+        	   zoom: 17,
+        	   point: new google.maps.LatLng(28.58707, -80.65274)
+           },
+           {
+        	   title: "The Future of Open Source",
+        	   contents: 
+        		   "<ul>" +
+        		   		"<li>Patent Wars - Patent Commons</li>" +
+        		   		"<li>DVCS & social code platforms</li>" +
+        		   		"<li>Repeats of Android, Chrome</li>" +
+        		   		"<li>Mobile-Social-Cloud</li>" +
+        		   		"<li>Open competing in app-dominated word - no view source</li>" +
+        		   		"<li>Open source feeding open source</li>" +
+	        	   "</ul>",
+        	   zoom: 17,
         	   point: new google.maps.LatLng(28.58707, -80.65274)
            },
         ];		
-
-
-/*
-
-
-History of Open
-Remember getting books from the library with game source code for basic.
-
-
-Definitions
-Open Source
-Open API - a service using open standards to make it's technology available to every developer in the world
-
-
-
-
-Different characteristics of OSS and Open APIs:
-Ethos, in particular with Free Software
-Level of open
-
-
-Characteristics of Open
-Huge reach
-Huge impact
-Extremely low barrier to entry
-Cost of distribution : creative business models required - fine line to walk
-
-
-
-
-The huge impact of Open:
-Open APIs and OSS are both about offering billions of dollars worth of technology to everyone on the planet who is capable of writing code.
-Developers make the choice, not salesman selling to management. -> Survival of the fittest not best salesman.
-Open feeds itself - The more you build, the more can be built.
-
-
-
-
-Places Open Source is impacting:
-It's hard to identify the complete impact.  Almost every product built today utilizes some OSS.
-Nearly everything, including:
-Data center technology
-Financial industries
-Office software
-Government operations
-Mobile
-Publishing
-
-
-
-
-Places Open APIs are impacting:
-GIS
-Payments
-The business of relationships (social)
-Media distribution (twitter)
-Data Center technology (Amazon web services)
-
-
-Future of OSS and Open APIs:
-Improved tech leading the way -
-OSS: 
-DVCS
-OSS feeding OSS
-Technologies like OAuth, OpenID
-
-
-
-
-Beyond OSS and OpenAPIs:
-The ideas of Open are spreading beyond software
-Open Knowledge (Wikipedia, Wikileaks) - disrupting traditional knowledge industry, governments etc
-Open Communication - disrupting governments (twitter)
-Creative Commons - opening content works, potential for disruption - I believe there's still more to come here
-Open Publishing - huge potential
-Open Music - future is still unclear
-Open Government - making all government data open.  Tim OReilly big proponent.  Impact can be huge, like the Census Bureau's open map data.
-
-
-
- * 
- */
 

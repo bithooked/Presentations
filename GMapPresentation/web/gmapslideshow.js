@@ -53,11 +53,11 @@ var map;
         }
         
         function doZoomOut() {
-        	if (map.getZoom() > 3) {
+        	if (map.getZoom() > 2) {
         		map.setZoom(map.getZoom() - 1);
         		setTimeout("doZoomOut()", 100);
         	} else {
-        		setTimeout("doPan()", 500);
+        		setTimeout("doPan()", 200);
         	}
     		
         }
@@ -86,7 +86,7 @@ var map;
         function initialize() {
             var myOptions = {
               center: new google.maps.LatLng(0,0),
-              zoom: 3,
+              zoom: 2,
               disableDefaultUI: true,
               mapTypeId: google.maps.MapTypeId.SATELLITE
             };
